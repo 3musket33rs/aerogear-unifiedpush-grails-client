@@ -26,7 +26,7 @@ Create a Push Configuration and configure the service:
 
 ```
 
-def pushConfig = new PushConfig(serverURL: "http://my.server.com", pushApplicationId: "myPushApplicationId", masterSecret: "myMasterSecret")
+def pushConfig = new PushConfig(description:"myPushAppDescription", serverURL: "http://my.server.com", pushApplicationId: "myPushApplicationId", masterSecret: "myMasterSecret")
 //It's a domain object you can persist it if you want
 pushConfig.save()
 

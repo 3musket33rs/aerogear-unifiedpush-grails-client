@@ -12,6 +12,6 @@ import org.junit.*
 class PushConfigTests {
 
     void testSomething() {
-       fail "Implement me"
+
     }
 }
