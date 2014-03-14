@@ -32,12 +32,13 @@ class UnifiedPushSenderService {
     }
 
     void checkConfig(message) {
-        if(configChanged && (defaultConfig && (message.masterSecret === null || message.pushApplicationId == null || javaSender.serverURL == null))){
+        if(configChanged && (defaultConfig && (message.masterSecret == null || message.pushApplicationId == null || javaSender.serverURL == null))){
             configureMessage(message)
         }
     }
 
     void configureMessage(UnifiedMessage message){
+       println "In configure"
        javaSender.serverURL = defaultConfig.serverURL
        message.pushApplicationId = defaultConfig.pushApplicationId
        message.masterSecret = defaultConfig.masterSecret

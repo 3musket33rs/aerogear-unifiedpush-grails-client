@@ -49,7 +49,7 @@ Brief summary/description of the plugin.
     }
 
     def doWithApplicationContext = { applicationContext ->
-        // TODO Implement post initialization spring config (optional)
+        System.setProperty("jsse.enableSNIExtension", "false");
     }
 
     def onChange = { event ->

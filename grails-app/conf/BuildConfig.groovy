@@ -22,7 +22,8 @@ grails.project.dependency.resolution = {
         //mavenRepo "http://repository.jboss.com/maven2/"
     }
     dependencies {
-        runtime "org.jboss.aerogear:unifiedpush-java-client:0.4.0"
+        compile "org.jboss.aerogear:unifiedpush-java-client:0.5.0"
+        compile "org.jboss.resteasy:resteasy-jackson-provider:2.3.2.Final"
     }
 
     plugins {
