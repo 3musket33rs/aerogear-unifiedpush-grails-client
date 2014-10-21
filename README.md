@@ -1,6 +1,6 @@
 # Aerogear Unifiedpush Grails Client
 
-A Grails Plugin for sending Push Notifications to the [AeroGear UnifiedPush Server](https://github.com/aerogear/aerogear-unifiedpush-server). For more information, please visit the [Java Sender Tutorial](http://aerogear.org/docs/guides/GetStartedwithJavaSender/) for example usages.
+A Grails Plugin for sending Push Notifications to the [AeroGear UnifiedPush Server](https://github.com/aerogear/aerogear-unifiedpush-server). For more information, please visit the [Java Sender Tutorial](http://aerogear.org/docs/unifiedpush/GetStartedwithJavaSender/) for example usages.
 
 ## Getting started
 
